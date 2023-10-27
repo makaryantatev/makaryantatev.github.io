@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1450px) {
+    .abouticon{
+        width: 15rem ;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .abouticon{
+        width: 12rem ;
+        height: 75px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .abouticon{
+        width: 14rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .abouticon{
+        height: 115px;
+    }
+}
+/*  */
+
+@media only screen and(max-width: 768px) {
+    #portfolio .portfolio-col {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    #portfolio .portfolio-col {
+        width: 100%;
+    }
+}
+
+/*  */
+
+@media only screen and (max-width: 350px) {
+    .p1{
+        font-size: 30px;
+    }
+    .resume-p1{
+        font-size: 22px;
+    }
+    .resume-p2{
+        font-size: 15px;
+    }
+    .resume-p3{
+        font-size: 13px;
+    }
+}
+
+
+
+
