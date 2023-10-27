@@ -321,33 +321,48 @@ $(function(){
     ///// 6 /////
 
     let $allimg = $('.allimg')
+    let $app1 = $('#app1').attr('src');
+    let $app2 = $('#app2').attr('src');
+    let $app3 = $('#app3').attr('src');
+    let $card1 = $('#card1').attr('src');
+    let $card2 = $('#card2').attr('src');
+    let $card3 = $('#card3').attr('src');
+    let $web1 = $('#web1').attr('src');
+    let $web2 = $('#web2').attr('src');
+    let $web3 = $('#web3').attr('src');
+
 
     $('#app').click(function() {
         $('#app').addClass('active').siblings().removeClass('active')
         $('#app1').css({
-            display: 'block'
+            display: 'inline-block'
         })
         $('#app2').css({
-            display: 'block'
+            display: 'inline-block'
         })
         $('#app3').css({
-            display: 'block'
+            display: 'inline-block'
         })
+
+        // $('#app1').attr('src', $app1);
+        // $('#app2').attr('src', $web1);
+        // $('#app3').attr('src', $app2);
+
         $('#web1').css({
             display: 'none'
-        })
+        });
         $('#web2').css({
             display: 'none'
-        })
+        });
         $('#web3').css({
             display: 'none'
-        })
+        });
         $('#card1').css({
             display: 'none'
-        })
+        });
         $('#card2').css({
             display: 'none'
-        })
+        });
         $('#card3').css({
             display: 'none'
         })
@@ -356,66 +371,76 @@ $(function(){
         $('#card').addClass('active').siblings().removeClass('active')
         $('#app1').css({
             display: 'none'
-        })
+        });
         $('#app2').css({
             display: 'none'
-        })
+        });
         $('#app3').css({
             display: 'none'
-        })
+        });
         $('#web1').css({
             display: 'none'
-        })
+        });
         $('#web2').css({
             display: 'none'
-        })
+        });
         $('#web3').css({
             display: 'none'
-        })
+        });
         $('#card1').css({
-            display: 'block'
+            display: 'inline-block'
         })
         $('#card2').css({
-            display: 'block'
+            display: 'inline-block'
         })
         $('#card3').css({
-            display: 'block'
+            display: 'inline-block'
         })
+
+        // $('#card1').attr('src', $app1);
+        // $('#card2').attr('src', $web1);
+        // $('#card3').attr('src', $app2);
     })
     $('#web').click(function() {
         $('#web').addClass('active').siblings().removeClass('active')
         $('#app1').css({
             display: 'none'
-        })
+        });
         $('#app2').css({
             display: 'none'
-        })
+        });
         $('#app3').css({
             display: 'none'
-        })
+        });
         $('#web1').css({
-            display: 'block'
-        })
+            display: 'inline-block'
+        });
         $('#web2').css({
-            display: 'block'
-        })
+            display: 'inline-block'
+        });
         $('#web3').css({
-            display: 'block'
-        })
+            display: 'inline-block'
+        });
+
+        // $('#web1').attr('src', $app1);
+        // $('#web2').attr('src', $web1);
+        // $('#web3').attr('src', $app2);
+
+
         $('#card1').css({
             display: 'none'
-        })
+        });
         $('#card2').css({
             display: 'none'
-        })
+        });
         $('#card3').css({
             display: 'none'
-        })
+        });
     })
     $('#all').click(function() {
         $('#all').addClass('active').siblings().removeClass('active')
         $($allimg).css({
-            display: 'block'
+            display: 'inline-block'
         })
     })
 

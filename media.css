@@ -36,9 +36,6 @@
 /*  */
 
 @media only screen and (max-width: 350px) {
-    .p1{
-        font-size: 30px;
-    }
     .resume-p1{
         font-size: 22px;
     }
@@ -47,6 +44,22 @@
     }
     .resume-p3{
         font-size: 13px;
+    }
+}
+
+/*  */
+
+@media only screen and(max-width: 1029px){
+    #about label{
+        font-size: 15px;
+    }
+}
+
+/*  */
+
+@media only screen and (max-width: 800px) {
+    .p1{
+        font-size: 25px;
     }
 }
 
