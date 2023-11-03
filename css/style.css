@@ -16,7 +16,7 @@ section{
 }
 .container{
     background-color: rgba(0, 0, 0, 0.9) !important;
-    padding: 30px !important;
+    padding: 50px !important;
 }
 .col-12{
     padding: 0 !important;
@@ -94,6 +94,9 @@ p{
     background-color: rgba(0, 0, 0, 0.9) !important;
     display: none !important;
 }
+.firstnav .container{
+    padding: 10px !important;
+}
 .firstnav.active{
     display: block !important;
 }
@@ -130,7 +133,7 @@ nav .container{
 .navbar li.active .nav-link{
     color: #18b361 !important;
 }
-.navbar a{
+.navbar ul li a{
     margin: 8px;
     font-weight: 100;
     font-size: 18px !important;
@@ -139,6 +142,9 @@ nav .container{
 }
 .navbar li:hover a{
     color: rgba(255, 255, 255, 1) !important;;
+}
+.navbar-toggler{
+    background-color: #18b361 !important;
 }
 /* ----------- */
 .headercontainer{
@@ -149,7 +155,7 @@ nav .container{
 h1{
     margin: 5px;
     color: rgb(235, 235, 235);
-    font-size: 47px;
+    font-size: 35px;
     font-weight: 700;
     font-family: Arial Black;
     transition: 0.4s;
@@ -176,8 +182,8 @@ h1:hover{
     display: flex;
     justify-content: start;
 }
-.h-buttons button{
-    margin: 7px;
+.h-buttons a{
+    margin: 5px;
     background-color: rgba(255, 255, 255, 0.3);
     border: none;
     width: 40px;
@@ -185,7 +191,7 @@ h1:hover{
     border-radius: 50%;
     transition: 0.5s all;
 }
-.h-buttons button:hover{
+.h-buttons a:hover{
     background-color: #18b361;
 }
 /* ----------- */
@@ -587,6 +593,7 @@ h1:hover{
     box-sizing: border-box;
 }
 .gallery>img {
+    width: 100%;
     max-height: 100%;
     width: auto;
 }

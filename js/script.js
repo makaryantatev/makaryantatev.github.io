@@ -321,15 +321,15 @@ $(function(){
     ///// 6 /////
 
     let $allimg = $('.allimg')
-    let $app1 = $('#app1').attr('src');
-    let $app2 = $('#app2').attr('src');
-    let $app3 = $('#app3').attr('src');
-    let $card1 = $('#card1').attr('src');
-    let $card2 = $('#card2').attr('src');
-    let $card3 = $('#card3').attr('src');
-    let $web1 = $('#web1').attr('src');
-    let $web2 = $('#web2').attr('src');
-    let $web3 = $('#web3').attr('src');
+    let $app1 = $('.img1').attr('src');
+    let $app2 = $('.img2').attr('src');
+    let $app3 = $('.img3').attr('src');
+    let $card1 = $('.img4').attr('src');
+    let $card2 = $('.img5').attr('src');
+    let $card3 = $('.img6').attr('src');
+    let $web1 = $('.img7').attr('src');
+    let $web2 = $('.img8').attr('src');
+    let $web3 = $('.img9').attr('src');
 
 
     $('#app').click(function() {
@@ -344,9 +344,9 @@ $(function(){
             display: 'inline-block'
         })
 
-        // $('#app1').attr('src', $app1);
-        // $('#app2').attr('src', $web1);
-        // $('#app3').attr('src', $app2);
+        // $('.img1').attr('src', $app1);
+        // $('.img2').attr('src', $web1);
+        // $('.img3').attr('src', $app2);
 
         $('#web1').css({
             display: 'none'
@@ -397,9 +397,9 @@ $(function(){
             display: 'inline-block'
         })
 
-        // $('#card1').attr('src', $app1);
-        // $('#card2').attr('src', $web1);
-        // $('#card3').attr('src', $app2);
+        // $('.img1').attr('src', $app1);
+        // $('.img2').attr('src', $web1);
+        // $('.img3').attr('src', $app2);
     })
     $('#web').click(function() {
         $('#web').addClass('active').siblings().removeClass('active')
@@ -422,9 +422,9 @@ $(function(){
             display: 'inline-block'
         });
 
-        // $('#web1').attr('src', $app1);
-        // $('#web2').attr('src', $web1);
-        // $('#web3').attr('src', $app2);
+        // $('.img1').attr('src', $app1);
+        // $('.img2').attr('src', $web1);
+        // $('.img3').attr('src', $app2);
 
 
         $('#card1').css({
@@ -444,7 +444,7 @@ $(function(){
         })
     })
 
-       $('.portfolio-col a').on('click', function(event) {
+    $('.portfolio-col a').on('click', function(event) {
         event.preventDefault();
         var link = $(this).find('img').attr('src');
         $('.gallery img').attr('src', '');

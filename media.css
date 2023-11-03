@@ -1,22 +1,22 @@
-@media only screen and (max-width: 1450px) {
+/* @media only screen and (max-width: 1450px) {
     .abouticon{
         width: 15rem ;
     }
-}
-@media only screen and (max-width: 1200px) {
+} */
+/* @media only screen and (max-width: 1200px) {
     .abouticon{
         width: 12rem ;
         height: 75px;
     }
-}
-@media only screen and (max-width: 900px) {
+} */
+/* @media only screen and (max-width: 900px) {
     .abouticon{
         width: 14rem;
     }
-}
-@media only screen and (max-width: 350px) {
+} */
+@media only screen and (max-width: 770px) {
     .abouticon{
-        height: 115px;
+        height: 100px !important;
     }
 }
 /*  */
@@ -59,10 +59,19 @@
 
 @media only screen and (max-width: 800px) {
     .p1{
-        font-size: 25px;
+        font-size: 30px !important;
+    }
+    h1{
+        font-size: 30px;
     }
 }
 
+/*  */
+
+@media only screen and (max-width: 360px) {
+    .logo{
+    }
+}
 
 
 
